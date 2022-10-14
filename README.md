@@ -54,7 +54,7 @@ variables and description:
 - region: "Lowest hierarchy" region
 - population: population of country
 
-## known issues or special considerations
+## Known Issues or Special Considerations
 - There are some duplicated url for articles with same name but from different countries. See [Notebook](/data-512-homework_2.ipynb) Section 1.2 for detailed considerations.
 - There are some articles from "Korean" which cannot be matched to country names. See [Notebook](/data-512-homework_2.ipynb) Section 2.3 for detailed considerations.
 - There are some countries with fewer than 1 million population are displayed as 0.0. See [Notebook](/data-512-homework_2.ipynb) Section 2.3 for detailed considerations.
