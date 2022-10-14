@@ -27,8 +27,11 @@ ORES predict articles to the following levels:
 
 ## Intermediate Data
 There are three intermediate CSV data file:
+
 [revid_df.csv](/IntermediateData/revid_df.csv): Request Result from Wikimedia Foundation REST API, containing article title and Revision id
+
 [ores_df.csv](/IntermediateData/ores_df.csv): Request Result from ORES API, containing article title and ORES Prediction Score
+
 [region_population.csv](/IntermediateData/region_population.csv): Subset of population_by_country_2022.csv, containing "Lowest hierarchy" Region Name and Population
 
 variables and description:
@@ -40,10 +43,13 @@ variables and description:
 
 ## Data Output
 There are two main outputs:
+
 [wp_countries-no_match.txt](/DataOutput/wp_countries-no_match.txt): Country name list which there is no matched article (politicians) in this country
+
 [wp_politicians_by_country.csv](/DataOutput/wp_politicians_by_country.csv): Combination of country information and article quality information
 
 There is one additional output:
+
 [article_no_revid.txt](/DataOutput/article_no_revid.txt): article name list which ORES Score/Revision id cannot be found
 
 variables and description:
