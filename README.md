@@ -1,4 +1,4 @@
-# Homework2: Considering Bias in Data
+## Considering Bias in Data
 
 ## About the project
 The goal of this project is to explore the concept of bias in data using Wikipedia articles. In this project, articles on political figures from different countries will be studied. A dataset of Wikipedia articles with a dataset of country populations will be combined, and use a machine learning service called ORES to estimate the quality of each article.
